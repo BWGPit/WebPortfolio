@@ -1,13 +1,32 @@
-<h1>TODO: raccolta dei siti che ho fatto, con degli effetti ganzi</h1>
+<div id="main">
+<h1>Raccolta di pagine web</h1>
+<p>Questa raccolta ha lo scopo di illustrare i miei progetti web fino ad oggi svolti in modo chiaro e diretto.</p>
 
 <div id="contenitore-siti">
     <div class="sito">
     <app-sitedesc nome="SSSorting"
     descrizione="Un sito realizzato durante la preparazione all'esame di 
     Programmazione e Algoritmica"
-    [puntidiforza]='["a", "b", "c"]'>
+    [puntidiforza]='[
+        "Evidenziazione della sintassi mediante espressioni regolari",
+        "Aspetto modulare in puro HTML+CSS+JS"
+    ]'>
     </app-sitedesc>
     <object type="text/html" data="https://sssorting.netlify.app"></object>
     </div>
+    <div class="sito">
+    <app-sitedesc
+    nome="Korean Learning Community (bozza)"
+    descrizione="Nonostante ancora in una primissima fase di sviluppo, questo progetto sfrutta API realizzate ad hoc per 
+    porre dei quiz all'utente sui vocaboli coreani appresi a lezione"
+    [puntidiforza]='[
+        "Utilizzo di framework moderno: Angular 22",
+        "Integrazione con API",
+        "Backend in FastAPI"
+    ]'
+    ></app-sitedesc>
+    <object type="text/html" data="https://koreanlearningcommunity.netlify.app"></object>
+    </div>
+</div>
 </div>
 <router-outlet />
