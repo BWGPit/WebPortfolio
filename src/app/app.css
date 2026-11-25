@@ -12,13 +12,15 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
     background-color: #0060AA;
+    margin:0;
+    padding: 20px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -25px;
 }
 
 .sito {
-    width: 90dvw;
     height: 220%;
-    
-    margin: 20px;
     padding: 20px;
 }
 
