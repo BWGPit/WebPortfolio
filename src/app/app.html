@@ -1,6 +1,6 @@
 <div id="main">
 <h1>Raccolta di pagine web</h1>
-<p>Questa raccolta ha lo scopo di illustrare i miei progetti web fino ad oggi svolti in modo chiaro e diretto.</p>
+<p>Questa raccolta ha lo scopo di illustrare alcuni tra i miei progetti web fino ad oggi svolti in modo chiaro e diretto.</p>
 
 <div id="contenitore-siti">
     <div class="sito">
@@ -29,10 +29,26 @@
     </div>
     <div class="sito">
     <app-sitedesc
-    nome="TODO"
-    descrizione="TODO"
+    nome="Invito al compleanno"
+    descrizione="Sito di invito al compleanno realizzato per il diciottesimo"
+    [puntidiforza]='[
+        "Gestione del DOM in JavaScript",
+        "Minigioco con animazioni"
+    ]'
     ></app-sitedesc>
-    <object type="text/html" data="TODO"></object>
+    <object type="text/html" data="https://natalis-petri.netlify.app"></object>
+    </div>
+    <div class="sito">
+    <app-sitedesc
+    nome="Pagina di login"
+    descrizione="Bozza di prova per un login funzionante basato su OAuth2, il cui codice sorgente è disponibile su GitHub"
+    [puntidiforza]='[
+        "Sicurezza informatica",
+        "OAuth2",
+        "Gestione di login con FastAPI"
+    ]'
+    ></app-sitedesc>
+    <a href="https://github.com/BWGPit/test-login-page">Sorgente</a>
     </div>
 </div>
 </div>

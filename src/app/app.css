@@ -4,17 +4,20 @@
 
 h1 {
     font-family: monospace;
+    text-align: center;
+    color: #0060AA;
 }
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #0060AA;
 }
 
 .sito {
     width: 90dvw;
     height: 220%;
-    border-style: solid;
-    border-image: linear-gradient(to top, rgb(112, 2, 2), rgb(18, 1, 79)) 4;
+    
     margin: 20px;
     padding: 20px;
 }
@@ -23,5 +26,5 @@ object {
     width: 100%;
     height: 90dvh;
     border-style: solid;
-    border-image: linear-gradient(to top, rgb(112, 2, 2), rgb(18, 1, 79)) 4;
+    border-image: linear-gradient(to left, rgb(27, 90, 190), rgb(108, 108, 108)) 4;
 }
